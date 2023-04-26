@@ -2,8 +2,8 @@ import { defineInterface } from '@directus/extensions-sdk';
 import InterfaceComponent from './interface.vue';
 
 export default defineInterface({
-	id: 'input-rich-text-md-custom',
-	name: 'markdown-preview',
+	id: 'interface-markdown-preview',
+	name: 'interface-markdown-preview',
 	description: '$t:interfaces.input-rich-text-md.description',
 	icon: 'functions',
 	component: InterfaceComponent,
